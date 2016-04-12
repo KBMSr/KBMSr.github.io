@@ -1,0 +1,112 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+header{
+	padding: 20px 0;
+}
+header .row,footer .row{
+	display: flex;
+	align-items: center;
+}
+header h1{
+	font-weight: 700;
+	margin: 0;
+}
+header nav{
+	display: flex;
+	justify-content: flex-end;
+}
+header p{
+	padding: 0 20px;
+	margin: 0;
+}
+.row
+{
+	margin-top: 20px;
+}
+.container{
+	margin-bottom: 40px;
+}
+.jumbotron{
+	display: flex;
+	align-items: center;
+	background-image: url(plate.jpg);
+	background-size: cover;
+	color: #ffffff;
+	height: 700px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+	margin-bottom: 40px;
+}
+.jumbotron h1{
+	font-size: 80px;
+	font-weight: 700;
+	margin: 0;
+	color:  white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+.jumbotron h2{
+	font-weight: 700;
+	margin: 0;
+	color:  white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+.jumbotron h3{
+	margin: 0 0 20px;
+	color: #fff;
+}
+section .row img{
+	margin: 0 0 30px;
+	width: 100%;
+}
+.col-sm-4 h4 {
+	text-align: center;
+	line-height: 20px;
+	font-family: 'Roboto';
+}
+.statictic .circle{
+	text-align: center;
+	position: relative;
+}
+.row .statictic {
+	align-items: center;
+	margin-top: 20px;
+
+}
+.circle{
+	0 0 0 13px #f3f3f3;
+		background-color: #f3f3f3;
+		border-radius: 65px;
+		box-shadow: 0 0 0 10px #ffffff,
+					0 0 0 13px #f3f3f3;
+		color: #666973;
+		font-family: "MarianinaFYW01-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 88px;
+		height: 130px;
+		margin: 0 auto;
+		vertical-align: center;
+		width: 130px;
+		line-height:130px;
+		display: block;
+		
+
+}
+.descr{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	display: block;
+	margin-top: 30px;
+}
+.horizontal{
+	position: relative;
+}
+.horizontal h2{
+	position: relative;
+}
+.map{
+	margin-top: 40px;
+	border: black 1px solid;
+}
+
+

@@ -1,0 +1,36 @@
+body{
+	font-family: Georgia, Helvetica, serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+}
+h1{
+	font-size: 55px;
+
+}
+h2{
+color: #ffffff;
+	font-size: 56px; 	
+}
+
+.container{
+
+	background-image: url(Images/plate-min.jpg);
+	background-position: center top;
+	background-size: cover;
+	padding: 250px 0;
+	margin: 30px;
+	text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica'
+}
+.first{
+	text-align: left;
+}
+.servtv{
+	background-image: url(Images/satellite-tv.png);
+	width: 64px;
+}
+
