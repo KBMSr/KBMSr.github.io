@@ -4,7 +4,7 @@ body{
 	font-size: 20px;
 }
 header{
-	padding: 20px 0;
+	padding: 0px 0;
 }
 header .row,footer .row{
 	display: flex;
@@ -38,6 +38,56 @@ header p{
 	height: 700px;
 	text-shadow: 0.25px 0.25px 0.25px #000000;
 	margin-bottom: 40px;
+}
+
+.jumbotron_sat{
+	display: flex;
+	align-items: center;
+	background-image: url(images/satel_back.png);
+	background-size: cover;
+	color: #ffffff;
+	height: 700px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+	margin-bottom: 40px;
+}
+.jumbotron_via{
+	display: flex;
+	align-items: center;
+	background-image: url(images/viasat_062.jpeg);
+	background-size: cover;
+	color: #ffffff;
+	height: 500px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+	margin-bottom: 40px;
+}
+.jumbotron_xtr{
+	display: flex;
+	align-items: center;
+	background-image: url(images/xtratv1.jpeg);
+	background-size: cover;
+	color: #ffffff;
+	height: 500px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+	margin-bottom: 40px;
+}
+.sat{
+	font-weight: 700;
+	margin: 0;
+	color:  white;
+	text-shadow: black 0.2em 0.2em 0.2em ;
+}
+.sat  h1{
+	font-size: 80px;
+}
+.sat h2 {
+	font-weight: 700;
+}
+.via {
+	font-weight: 800;
+	margin: 0;
+	color:  black;
+	/*text-shadow: black 0.1em 0.1em 0.1em ;*/
+
 }
 .jumbotron h1{
 	font-size: 80px;
